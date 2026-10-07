@@ -1,0 +1,61 @@
+#ROOMS
+R101,50,Lecture
+R102,40,Lecture
+R103,35,Lecture
+R104,25,Lecture
+LAB1,30,Lab
+LAB2,25,Lab
+
+#INSTRUCTORS
+I01,Dr. Ahmad,true,Monday-10:00
+I02,Dr. Sara,false,-
+I03,Dr. Omar,true,-
+I04,Dr. Lina,false,Tuesday-08:00
+I05,Dr. Khaled,true,-
+I06,Dr. Noor,false,Wednesday-11:00
+I07,Dr. Yousef,true,-
+I08,Dr. Rana,false,-
+I09,Dr. Samer,true,Thursday-09:00
+I10,Dr. Huda,false,-
+
+#COURSES
+C01,AI,35,I01,Lecture
+C02,Database,40,I02,Lecture
+C03,Networks,30,I03,Lecture
+C04,Operating Systems,35,I01,Lecture
+C05,Software Engineering,45,I04,Lecture
+C06,Algorithms,40,I05,Lecture
+C07,Data Mining,25,I06,Lecture
+C08,Computer Graphics,30,I07,Lab
+C09,Web Programming,25,I08,Lab
+C10,Machine Learning,35,I06,Lecture
+C11,Discrete Math,40,I02,Lecture
+C12,Computer Architecture,30,I03,Lecture
+C13,Compilers,25,I09,Lecture
+C14,Mobile App Dev,25,I08,Lab
+C15,Cyber Security,35,I10,Lecture
+C16,Cloud Computing,30,I05,Lecture
+C17,HCI,25,I07,Lab
+C18,Distributed Systems,30,I09,Lecture
+C19,NLP,25,I06,Lecture
+C20,Computer Vision,30,I01,Lecture
+C21,Information Retrieval,25,I02,Lecture
+C22,Embedded Systems,20,I03,Lab
+C23,Parallel Computing,30,I04,Lecture
+C24,Game Development,25,I07,Lab
+C25,Data Structures,45,I05,Lecture
+C26,Robotics,20,I09,Lab
+C27,Bioinformatics,20,I06,Lecture
+C28,Blockchain,25,I10,Lecture
+C29,IoT Systems,20,I08,Lab
+C30,Numerical Methods,30,I03,Lecture
+
+#GROUPS
+G1,C01;C02;C03;C04
+G2,C05;C06;C07;C08
+G3,C09;C10;C11;C12
+G4,C13;C14;C15;C16
+G5,C17;C18;C19;C20
+G6,C21;C22;C23;C24
+G7,C25;C26;C27;C28
+G8,C29;C30

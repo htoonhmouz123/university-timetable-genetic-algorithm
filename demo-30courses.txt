@@ -1,0 +1,70 @@
+#ROOMS
+R201,45,Lecture
+R202,38,Lecture
+R203,30,Lecture
+R204,20,Lecture
+LAB3,28,Lab
+LAB4,22,Lab
+R205,50,Lecture
+R206,33,Lecture
+R207,27,Lecture
+LAB5,24,Lab
+LAB6,20,Lab
+
+#INSTRUCTORS
+I11,Dr. Mona,true,Sunday-08:00
+I12,Dr. Bilal,false,-
+I13,Dr. Reem,true,Tuesday-09:00
+I14,Dr. Firas,false,-
+I15,Dr. Dina,true,Thursday-11:00
+I16,Dr. Tariq,false,-
+I17,Dr. Salma,true,-
+I18,Dr. Wael,false,Monday-11:00
+I19,Dr. Nadia,true,-
+I20,Dr. Ziad,false,Wednesday-08:00
+I21,Dr. Rana,true,Sunday-09:00
+I22,Dr. Khalil,false,-
+I23,Dr. Lina,true,Monday-08:00
+I24,Dr. Samer,false,Tuesday-11:00
+I25,Dr. Huda,true,-
+I26,Dr. Yousef,false,Thursday-08:00
+
+#COURSES
+D01,Intro to Programming,42,I11,Lecture
+D02,Data Structures,38,I12,Lecture
+D03,Calculus II,44,I13,Lecture
+D04,Digital Logic,30,I14,Lecture
+D05,Object Oriented Design,35,I15,Lecture
+D06,Operating Systems Lab,25,I16,Lab
+D07,Database Systems,36,I17,Lecture
+D08,Computer Networks,32,I18,Lecture
+D09,Artificial Intelligence,28,I19,Lecture
+D10,Software Testing,24,I20,Lecture
+D11,Web Development Lab,22,I12,Lab
+D12,Theory of Computation,30,I11,Lecture
+D13,Linear Algebra,40,I13,Lecture
+D14,Computer Organization,33,I14,Lecture
+D15,Human Computer Interaction,20,I15,Lecture
+D16,Mobile Development Lab,26,I16,Lab
+D17,Information Security,29,I17,Lecture
+D18,Cloud Systems,27,I18,Lecture
+D19,Data Visualization,21,I19,Lab
+D20,Capstone Seminar,18,I20,Lecture
+D21,Discrete Mathematics,41,I21,Lecture
+D22,Computer Architecture,34,I22,Lecture
+D23,Compiler Design,26,I23,Lecture
+D24,Distributed Systems,29,I24,Lecture
+D25,Machine Learning Lab,23,I25,Lab
+D26,Statistics for CS,37,I26,Lecture
+D27,Computer Graphics,25,I21,Lecture
+D28,Cybersecurity Fundamentals,31,I22,Lecture
+D29,Cloud Computing Lab,19,I23,Lab
+D30,Software Project Management,28,I24,Lecture
+
+#GROUPS
+GA,D01;D02;D03;D04;D05
+GB,D06;D07;D08;D09;D10
+GC,D11;D12;D13;D14;D15
+GD,D16;D17;D18;D19;D20
+GE,D21;D22;D23;D24;D25
+GF,D26;D27;D28;D29;D30

@@ -1,0 +1,36 @@
+#ROOMS
+R101,50,Lecture
+R102,40,Lecture
+R103,35,Lecture
+R104,25,Lecture
+LAB1,30,Lab
+LAB2,25,Lab
+
+#INSTRUCTORS
+I01,Dr. Ahmad,true,Monday-10:00
+I02,Dr. Sara,false,-
+I03,Dr. Omar,true,-
+I04,Dr. Lina,false,Tuesday-08:00
+I05,Dr. Khaled,true,-
+I06,Dr. Noor,false,Wednesday-11:00
+I07,Dr. Yousef,true,-
+I08,Dr. Rana,false,-
+I09,Dr. Samer,true,Thursday-09:00
+I10,Dr. Huda,false,-
+
+#COURSES
+C01,AI,35,I01,Lecture
+C02,Database,40,I02,Lecture
+C03,Networks,30,I03,Lecture
+C04,Operating Systems,35,I01,Lecture
+C05,Software Engineering,45,I04,Lecture
+C06,Algorithms,40,I05,Lecture
+C07,Data Mining,25,I06,Lecture
+C08,Computer Graphics,30,I07,Lab
+C09,Web Programming,25,I08,Lab
+C10,Machine Learning,35,I06,Lecture
+
+#GROUPS
+G1,C01;C02;C03;C04
+G2,C05;C06;C07;C08
+G3,C09;C10
